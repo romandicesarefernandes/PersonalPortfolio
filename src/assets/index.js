@@ -7,6 +7,9 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
+import linkdin from './personal/linkdin.png';
+import githubblack from './personal/githubblack.png';
+
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -28,6 +31,7 @@ import docker from './tech/docker.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
+import java from './tech/java.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
@@ -37,6 +41,15 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import C from './tech/C.png';
+import python from './tech/python.png';
+import bootstrap from './tech/bootstrap.png';
+import jests from './tech/jests.png';
+import heroku from './tech/heroku.png';
+import linux from './tech/linux.png';
+import mongodb from './tech/mongodb.png';
+import express from './tech/express.png';
+import android from './tech/android.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -54,12 +67,22 @@ export {
   bwmap,
   nairobi,
   whiteabstract,
+  bootstrap,
+  jests,
+  heroku,
+  linux,
+  mongodb,
+  express,
+  android,
   worldmap,
-  logo,
+  logo, githubblack,
   logotext,
   shaq,
   backend,
+  C,
+  python,
   ux,
+  java,
   frontend,
   prototyping,
   github,
@@ -78,7 +101,7 @@ export {
   git,
   graphql,
   html,
-  javascript,
+  javascript, linkdin,
   nodejs,
   postgresql,
   rubyrails,

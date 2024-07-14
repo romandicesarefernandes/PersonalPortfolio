@@ -19,14 +19,25 @@ import {
   graphql,
   komikult,
   leaderboard,
+  bootstrap,
+  android,
+  express,
+  linux,
+  heroku,
+  jests,
+  mongodb,
   math,
   movie,
+  java,
+  C,
+  python,
   nyeusi,
   space,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  
 } from '../assets';
 
 export const navLinks = [
@@ -54,110 +65,126 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Mobile App Developer',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Software Optimization',
     icon: prototyping,
   },
 ];
 
-const technologies = [
+const languages = [
+  
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'C',
+    icon: C,
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Python',
+    icon: python,
   },
   {
     name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'CSS 3',
+    icon: css,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'HTML',
+    icon: html,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+
+  
+
+];
+
+
+const technologies = [
+
+{
+  name: 'React JS',
+  icon: reactjs,
+},
+
+{
+  name: 'Bootstrap',
+  icon: bootstrap,
+},
+{
+  name: 'Node JS',
+  icon: nodejs,
+},
+
+
+{
+  name: 'git',
+  icon: git,
+},
+{
+  name: 'figma',
+  icon: figma,
+},
+{
+  name: 'android',
+  icon: android,
+},
+{
+  name: 'jests',
+  icon: jests,
+},
+
+{
+  name: 'mongodb',
+  icon: mongodb,
+},
+
+{
+  name: 'heroku',
+  icon: heroku,
+},
+{
+  name: 'linux',
+  icon: linux,
+},
+{
+  name: 'express',
+  icon: express,
+},
+
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Full stack developer & co-founder at my startup',
+    company_name: 'Vital Track health',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'March 2024 - present',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'IT consultant & Developer',
+    company_name: 'AR investments',
+    icon: coverhunt,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Aug 2020 - Feb 2024 (Seasonal)',
   },
+  
+
+
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Vital Track app',
+    description: 'A way to connect healthcare professionals with the nutriotion of their patients.',
     tags: [
       {
         name: 'react',
@@ -168,19 +195,19 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'express',
         color: 'pink-text-gradient',
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/romandicesarefernandes/VitalTrack.git',
+    demo: '',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Turntable',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A multiplatform application that allows you to find and rate your favourite albums and disks.',
     tags: [
       {
         name: 'react',
@@ -191,18 +218,40 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'react native',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: movie,
+    repo: 'https://github.com/kilkennylj/Turntable.git',
+    demo: '',
+  },
+  {
+    id: 'project-3',
+    name: 'Wave contact manager',
+    description: 'This was built with the LAMP stack',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
         color: 'pink-text-gradient',
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/kilkennylj/Wave-Contact-Manager.git',
+    demo: 'https://youtu.be/-7fZM36Mzzc?si=n69_iFSRvpLzXKrj',
   },
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    id: 'project-4',
+    name: 'Metro optimization',
+    description: `A simple program that helps you find the best route to your destination. It is built with dijsktra's algorithm using java.`,
     tags: [
       {
         name: 'nextjs',
@@ -218,36 +267,14 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
     repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    demo: '',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'PML tiny compiler',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'This Project is a simple compiler for the PML language, which is a subset of the ML language.',
     tags: [
       {
         name: 'nextjs',
@@ -264,8 +291,8 @@ const projects = [
     ],
     image: nyeusi,
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    demo: '',
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, languages, experiences, projects, technologies };
