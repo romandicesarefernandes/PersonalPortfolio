@@ -24,7 +24,7 @@ const Tech = () => {
       </>
       <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubTextLight}><br></br> <br></br> ReactJs/React Native/Bootstrap/expressjs/git/figma/android/jests/mongodb/heroku/linux/expressjs</p>
+        <p className={styles.sectionSubTextLight}><br></br> <br></br> ReactJs/React Native/Bootstrap <br></br> /expressjs/git/figma/android/jests <br></br> /mongodb/heroku/linux/expressjs</p>
         <h2 className={styles.sectionHeadTextLight}>Tools and frameworks.</h2>
       </motion.div>
       <div className="flex flex-wrap justify-center gap-10 mt-14">
