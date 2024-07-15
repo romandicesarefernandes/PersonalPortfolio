@@ -11,14 +11,14 @@ const Hero = () => {
         <img
           src={bwmap}
           alt="world map"
-          className="w-full h-full sm:block hidden object-cover"
+          className="w-full h-full sm:block hidden object-cover overflow-hidden"
         />
       </div>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen overflow-hidden">
         <img
           src={worldmap}
           alt="world map"
-          className="w-full h-full sm:hidden block object-cover"
+          className="w-full h-full sm:hidden block object-cover overflow-hidden"
         />
       </div>
       <section
@@ -28,10 +28,10 @@ const Hero = () => {
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
-          justify-between gap-3`}>
-          <div className="flex flex-col justify-center items-center mt-5 ml-3">
-            <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden" />
-            <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden" />
+          justify-between gap-3 overflow-hidden`}>
+          <div className="flex flex-col justify-center items-center mt-5 ml-3 overflow-hidden">
+            <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden overflow-hidden" />
+            <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden overflow-hidden" />
           </div>
 
           <div>
@@ -96,7 +96,7 @@ const Hero = () => {
           <img
             className="absolute bottom-7 ml-[30vw] 
             lg:ml-[55vw] md:ml-[40vw] xmd:ml-[40vw] 2xl:ml-[63vw]
-            sm:h-[30vh] md:h-[40vh] xl:h-[40vh]"
+            sm:h-[0vh] md:h-[40vh] xl:h-[40vh] "
             src={shaq}
             alt="shaquille"
           />
