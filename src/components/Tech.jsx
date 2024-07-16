@@ -14,10 +14,11 @@ const Tech = () => {
         <h2 className={styles.sectionHeadTextLight}>Programming languages.</h2>
       </motion.div>
 
+
       <div className="flex flex-wrap justify-center gap-10 mt-14">
-        {languages.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+        {languages.map((languages) => (
+          <div className="w-28 h-28" key={languages.name}>
+            <BallCanvas icon={languages.icon} />
           </div>
         ))}
       </div>

@@ -93,13 +93,13 @@ const Hero = () => {
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
-          <img
-            className="absolute bottom-7 ml-[30vw] 
-            lg:ml-[55vw] md:ml-[40vw] xmd:ml-[40vw] 2xl:ml-[63vw]
-            sm:h-[0vh] md:h-[40vh] xl:h-[40vh] "
-            src={shaq}
-            alt="shaquille"
-          />
+        <img
+  className="absolute bottom-7 ml-[30vw] 
+  lg:ml-[55vw] md:ml-[40vw] xmd:ml-[40vw] 2xl:ml-[63vw]
+  sm:h-[0vh] md:h-[40vh] xl:h-[40vh] hidden md:block"
+  src={shaq}
+  alt="shaquille"
+/>
         </div>
       </section>
     </>

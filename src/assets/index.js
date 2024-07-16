@@ -41,7 +41,7 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
-import C from './tech/C.png';
+import Cprogram from './tech/Cprogram.png';
 import python from './tech/python.png';
 import bootstrap from './tech/bootstrap.png';
 import jests from './tech/jests.png';
@@ -79,7 +79,7 @@ export {
   logotext,
   shaq,
   backend,
-  C,
+  Cprogram,
   python,
   ux,
   java,

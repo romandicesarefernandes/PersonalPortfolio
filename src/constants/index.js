@@ -29,7 +29,7 @@ import {
   math,
   movie,
   java,
-  C,
+  Cprogram,
   python,
   nyeusi,
   space,
@@ -76,13 +76,16 @@ const services = [
 
 const languages = [
   
-  {
-    name: 'C',
-    icon: C,
-  },
+
   {
     name: 'Java',
     icon: java,
+  },
+  
+
+  {
+    name: 'C',
+    icon: Cprogram,
   },
   {
     name: 'Python',
@@ -92,10 +95,7 @@ const languages = [
     name: 'JavaScript',
     icon: javascript,
   },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
+
   {
     name: 'HTML',
     icon: html,
@@ -111,6 +111,10 @@ const technologies = [
 {
   name: 'React JS',
   icon: reactjs,
+},
+{
+  name: 'CSS 3',
+  icon: css,
 },
 
 {
@@ -145,10 +149,7 @@ const technologies = [
   icon: mongodb,
 },
 
-{
-  name: 'heroku',
-  icon: heroku,
-},
+
 {
   name: 'linux',
   icon: linux,
@@ -224,7 +225,7 @@ const projects = [
     ],
     image: movie,
     repo: 'https://github.com/kilkennylj/Turntable.git',
-    demo: '',
+    demo: 'https://drive.google.com/file/d/1geKC2CEt4NuD_csAZw37Gje4cw1HyXYB/view?usp=drive_link',
   },
   {
     id: 'project-3',
