@@ -268,7 +268,7 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
+    repo: '',
     demo: '',
   },
   {
