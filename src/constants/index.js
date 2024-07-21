@@ -291,7 +291,7 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    repo: 'https://github.com/romandicesarefernandes/TinyCompiler.git',
     demo: '',
   },
 ];
