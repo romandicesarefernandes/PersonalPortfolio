@@ -268,7 +268,7 @@ const projects = [
       },
     ],
     image: math,
-    repo: '',
+    repo: 'https://github.com/romandicesarefernandes/TinyCompiler.git',
     demo: '',
   },
   {
