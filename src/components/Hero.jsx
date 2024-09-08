@@ -50,7 +50,7 @@ const Hero = () => {
               At the University Of Central Florida.
             </p>
             <div className="flex">
-  <a href="www.linkedin.com/in/roman-di-cesare-994641309">
+  <a href="https://linkedin.com/in/roman-di-cesare-994641309">
     <img src={linkdin} className="w-20 h-20" />
   </a>
   <a href="https://github.com/romandicesarefernandes">
