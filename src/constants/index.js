@@ -202,7 +202,7 @@ const projects = [
     ],
     image: komikult,
     repo: 'https://github.com/romandicesarefernandes/VitalTrack.git',
-    demo: '',
+    demo: 'vitaltrackh.com',
   },
   {
     id: 'project-2',
